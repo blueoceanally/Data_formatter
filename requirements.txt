@@ -1,0 +1,9 @@
+# Core
+streamlit
+
+# Streamlit components
+streamlit-ace
+
+# Dependencies
+langchain
+pandas

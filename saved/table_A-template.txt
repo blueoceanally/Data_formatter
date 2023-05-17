@@ -1,0 +1,5 @@
+input_df['Date'] = input_df['Date_of_Policy'].apply(lambda x: datetime.strptime(x, '%m/%d/%Y').strftime('%d-%m-%Y'))
+input_df['EmployeeName'] = input_df['FullName']
+input_df['Plan'] = input_df['Insurance_Plan'].map({'Gold Plan': 'Gold', 'Silver Plan': 'Silver', 'Bronze Plan': 'Bronze'})
+input_df['PolicyNumber'] = input_df['Policy_No'].astype(str)
+input_df['Premium'] = input_df['Monthly_Premium']
