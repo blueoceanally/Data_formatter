@@ -7,3 +7,5 @@ streamlit-ace
 # Dependencies
 langchain
 pandas
+openai
+tabulate
