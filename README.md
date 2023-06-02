@@ -1,6 +1,10 @@
 # Data_formatter
 
-Map(Reshape) a csv file to the template format. What you need: an openai API key, a csv data file you want to reformat, a csv template file you want the target format to be like.
+Map(Reshape) a csv file to the template format. 
+What you need: 
+1. an openai API key, 
+2. a csv data file you want to reformat, 
+3. a csv template file you want the target format to be like.
 
 Live run: https://huggingface.co/spaces/blueoceanally/data_formatter -->App
 
